@@ -1,5 +1,6 @@
 
-  #transparencia {   /*transparenciua navbar*/
+
+ #transparencia {   /*transparenciua navbar*/
     z-index: 99;
     background-color: transparent !important;
   }
@@ -22,3 +23,6 @@
     text-align: left;
   } /*estilos carrusel fin*/
 
+  #ColorFondo {
+    background-color: black ;
+   }
