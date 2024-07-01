@@ -26,3 +26,7 @@
   #ColorFondo {
     background-color: black ;
    }
+
+   #cont1 {
+    display: flex;
+    justify-content: center; }
