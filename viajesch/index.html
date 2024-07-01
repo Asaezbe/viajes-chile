@@ -7,6 +7,8 @@
     <title>Viajes Chile</title>
     <link rel="shortcut icon" href="./assets/img/viajes.svg" type="logo favicon" weigth="30px">
     <meta name="autor" content="Andres Saez">
+    <meta name="link a repositorio github" content=https://github.com/Asaezbe/viajes-chile.git>
+
     <meta name="keywords" content="Viaja por chile, descubre lugares increibles y santuarios de la naturaleza">
     <link rel="stylesheet" href="./assets/css/style.css">
 
@@ -30,13 +32,13 @@
 
 <body id="ColorFondo">
     <header>
-        <div id="seccion1">
+        <div id="seccion1" class="col-12 col-lg-12">
 
             <!-- Navbar content -->
             <nav id="transparencia" class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container" class="text-center">
                     <div id="logohead">
-                        <img src="./assets/img/viajes.svg" width="35px">
+                        <img src="./assets/img/viajes.svg" width="42px">
                     </div>
                 </div>
 
@@ -99,18 +101,22 @@
                         <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <div class="container">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                    </button>
+                
+                </div>
             </div>
-            <H1 id="Quienes" class="text-center">¿QUIÉNES SOMOS? </H1>
+          
         </div>
 
         <!--carrusel fin-->
@@ -119,7 +125,7 @@
         <br>
 
     </header>
-
+    <H1 id="Quienes" class="text-center">¿QUIÉNES SOMOS? </H1>
 
     <section id="TarjetasTexto">
         <div id="cont1" class="container">
@@ -131,7 +137,7 @@
 
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item" style="background-color: #1e99af;">
-                                <h3 class="text-center">viaja<i class="fa-sharp fa-solid fa-wave"
+                                <h3 class="text-center">VIAJES<i class="fa-sharp fa-solid fa-wave"
                                         style="color: #000000;"></i></h3>
                             </li>
                         </ul>
@@ -186,6 +192,7 @@
             </div>
         </div>
         <br>
+        <br>
         <H3 class="text-center">DESTACADOS </H3>
     </section>
 
@@ -196,7 +203,7 @@
                 <!-- tarjeta1 -->
                 <div class="col-12 col-lg-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/card1.jpg" class="card-img-top" alt="pescados" height="230px">
+                        <img src="./assets/img/card1.jpg" class="card-img-top" alt="pescados" height="190px">
                         <div class="card-body" style="background-color: #1e99af;">
                             <p class="card-text" style="color: #ffffff;">
                                 Encuentra excelentes promociones para recorrer Chile con descuentos.
@@ -209,7 +216,7 @@
                 <!-- tarjeta2 -->
                 <div class="col-12 col-lg-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/card2.jpg" class="card-img-top" alt="pescados" height="230px">
+                        <img src="./assets/img/card2.jpg" class="card-img-top" alt="pescados" height="190px">
                         <div class="card-body" style="background-color: #1e99af;">
                             <p class="card-text" style="color: #ffffff;">
                                 Pichilemu no sólo es reconocido por la belleza y tranquilidad que ofrece a los
@@ -222,7 +229,7 @@
                 <!-- tarjeta3 -->
                 <div class="col-12 col-lg-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/card3.jpg" class="card-img-top" alt="pescados" height="230px">
+                        <img src="./assets/img/card3.jpg" class="card-img-top" alt="pescados" height="190px">
                         <div class="card-body" style="background-color: #1e99af;">
                             <p class="card-text" style="color: #ffffff;">
                                 En nuestro país existe una fauna enorme y diversa, podrás encontrar animales tan
@@ -236,7 +243,7 @@
                 <!-- tarjeta4 -->
                 <div class="col-12 col-lg-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/card4.jpg" class="card-img-top" alt="pescados" height="230px">
+                        <img src="./assets/img/card4.jpg" class="card-img-top" alt="pescados" height="190px">
                         <div class="card-body" style="background-color: #1e99af;">
                             <p class="card-text" style="color: #ffffff;">
                                 Pichilemu no sólo es reconocido por la belleza y tranquilidad que ofrece a los
@@ -249,49 +256,53 @@
             </div>
         </div>
         <br>
+        <br>
         <H3 class="text-center">CONTACTO </H3>
     </section>
 
 
-    <footer>
+    <footer id="line">
         <form>
-            <div class="container">
-                <div class="form-group">
-                    <label for="textoNombre">Nombre</label>
-                    <input id="textoNombre" type="text" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="textoNombre">Asunto</label>
-                    <input id="textoNombre" type="text" class="form-control">
-                </div>
-                <!-- Aqui deberia ir el input del correo -->
-                <div class="form-group">
-                    <label for="">Mensaje</label>
-                    <textarea class="form-control"></textarea>
-                </div>
 
-                <div class="text-start"> <br>
-                    <button type="button" class="btn btn-info text-light">Enviar</button>
+            <div class="container">
+                <div class="col-12 col-lg-12 ">
+                    <div class="form-group">
+                        <label for="textoNombre">Nombre</label>
+                        <input id="textoNombre" type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="textoNombre">Asunto</label>
+                        <input id="textoNombre" type="text" class="form-control">
+                    </div>
+                    <!-- Aqui deberia ir el input del correo -->
+                    <div class="form-group">
+                        <label for="">Mensaje</label>
+                        <textarea class="form-control"></textarea>
+                    </div>
+
+                    <div class="text-start"> <br>
+                        <button type="button" class="btn btn-info text-light">Enviar</button>
+                    </div>
                 </div>
             </div>
             <br>
             <br>
-            <div id="final" >
-                    <div class="row">
-                        
-                            <h3 class="col-12 col-lg-6  text-center" style="color: #ffffff; background-color: #1e99af; "  >
-                                Viajes Chile
+            <div id="final">
+                <div class="row">
 
-                            </h3>
-                            <h3 class="col-12 col-lg-6 text-center" style="background-color: #1e99af;" >
-                                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i> <!-- logo -->
-                                <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i> <!-- logo -->
-                                <i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i> <!-- logo -->
-                                <i class="fa-brands fa-tiktok" style="color: #ffffff;"></i> <!-- logo -->
-                            </h3>
-                        
-                    </div>
+                    <h3 id="colorbarrafin" class="col-12 col-lg-6  text-center" style="color: #ffffff; ">
+                        Viajes Chile
+
+                    </h3>
+                    <h3 id="colorbarrafin" class="col-12 col-lg-6 text-center">
+                        <i class="fa-brands fa-instagram" style="color: #ffffff;"></i> <!-- logo -->
+                        <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i> <!-- logo -->
+                        <i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i> <!-- logo -->
+                        <i class="fa-brands fa-tiktok" style="color: #ffffff;"></i> <!-- logo -->
+                    </h3>
+
                 </div>
+            </div>
     </footer>
 
 

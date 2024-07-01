@@ -1,5 +1,6 @@
 
 
+
  #transparencia {   /*transparenciua navbar*/
     z-index: 99;
     background-color: transparent !important;
@@ -12,15 +13,14 @@
   /*estilos carrusel init*/
   #imagescar{
     margin-top: -100px;
-    padding-bottom: 0%;
+    padding-bottom: -100%;
   }
 
   .carousel-inner{
     object-fit: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+    height: fit-content;
     align-items: left;
-    justify-content: center;
+    justify-content: left;
     text-align: left;
   } /*estilos carrusel fin*/
 
@@ -31,9 +31,14 @@
     background-color: black ;
    }
 
-   #cont1 {
+   #cont1  {
     display: flex;
     justify-content: center; }
+    
+    #cont2 {
+      display: flex;
+    justify-content: center; 
+    }
 
 
 
@@ -49,3 +54,22 @@
       padding-top: 2%;
       padding-bottom: 4%;
     }
+
+    
+
+    #line {
+      border-top: 1px solid #3b3b3b;
+      padding-top: 2%;
+      
+
+    }
+
+    #final { 
+      display: wrapper;
+      padding-top: 10px ;
+      
+      background-color: #1e99af;
+      justify-content: center;
+   
+    }
+   
