@@ -12,6 +12,7 @@
   /*estilos carrusel init*/
   #imagescar{
     margin-top: -100px;
+    padding-bottom: 0%;
   }
 
   .carousel-inner{
@@ -19,10 +20,13 @@
     background-repeat: no-repeat;
     height: 100vh;
     align-items: left;
-    justify-content: left;
+    justify-content: center;
     text-align: left;
   } /*estilos carrusel fin*/
 
+  #Quienes {
+    padding-top: 20px;
+  }
   #ColorFondo {
     background-color: black ;
    }
@@ -30,3 +34,18 @@
    #cont1 {
     display: flex;
     justify-content: center; }
+
+
+
+    #TarjetasTexto{
+      border-top: 1px solid #3b3b3b;
+      padding-top: 2%;
+      padding-bottom: 4%;
+
+    }
+
+    #TarjetasFotos {
+      border-top: 1px solid #3b3b3b;
+      padding-top: 2%;
+      padding-bottom: 4%;
+    }
